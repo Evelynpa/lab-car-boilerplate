@@ -1,1 +1,250 @@
 <!-- Suelta tus manos y tu mente para solucionar este reto -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Lab-<ar</title>
+	<link rel="icon" type="image/png" href="assets/images/car.jpg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.2/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- MENU -->
+    <nav id="nav">
+	    <div class="nav-wrapper">
+	       <img src="assets/images/logoForma.png" alt="logo" class="brand-logo" id="iconLogo">
+	      <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="material-icons hamburguer">menu</i></a>
+	      <ul class="right hide-on-med-and-down">
+	        <li><a href="#">Viaja</a></li>
+	        <li><a href="#">Conduce</a></li>
+	        <li><a class="waves-effect waves-light modal-trigger" href="#modal1" id="inicio">Inicia sesión</a></li>
+	      </ul>
+	      <ul class="sidenav" id="mobile-demo">
+	        <li><a href="#">Viaja</a></li>
+	        <li><a href="#">Conduce</a></li>
+	        <li><a href="#">Inicia sesión</a></li>
+	      </ul>
+	    </div>
+	</nav>
+<!-- IMAGEN FONDO -->
+<section>
+	<div class="row" id="divRow">
+		<div class="col s12 m12 l12 xl12" id="fondoImg">
+				<div class="yellowSquare right">
+					<div class="row">
+						<div class="col s12 m12 l12 xl12 hide-on-med-and-down">
+							<h1 class="title">Disfruta del viaje </h1>
+							<h2 class="title2">Eres dueño de tu tiempo</h2>
+							<label for="label" class="label">Viaja con &nbsp;</label>
+							<img src="assets/images/logoBlanco.png" alt="logoBlanco" class="logoBlanco">
+							<a class="waves-effect white black-text btn btn-registrarse modal-trigger" href="#modal2" id="registr">Regístrate</a>
+							<hr id="lbl-square">
+							<label for="medio" class="medio">O bien</label>
+							<hr id="lbl-square2">
+							<a class="waves-effect white black-text btn btnLarge modal-trigger" href="#modal3" id="drive">conviértete en un conductor</a>
+						</div>
+						<div class="col s12 m12 l12 xl12 hide-on-large-only">
+							<h1 class="title">Comienza a Viajar</h1>
+							<h2 class="title2">con <img src="assets/images/logoBlanco.png" alt="logoBlanco" class="logoBlanco"></h2>
+							<a class="waves-effect white black-text btn  left">Descarga el app</a>
+						</div>
+					</div>
+					
+				</div>
+		</div>
+	</div>
+</section>
+<!-- DESCARGA NUEVA APP -->
+<section class="appSection">
+	<div class="row" id="rowApp">
+		<div class="col s12 m12 l12 xl10" id="sectionRow">
+			<div class="squareCel">
+				<div class="row">
+					<div class="col s12 m7 l7 xl7 ">
+						<h2 class="title3 center hide-on-med-and-up">La nueva app</h2>
+						<img src="assets/images/iPhone6Plus.png" alt="iPhone6Plus" class="imgCel" >
+					</div>
+					<div class="col s12 m12 l4 xl4 hide-on-small-only " id="parrafos">
+						<h2 class="title3">Descarga la nueva app</h2>
+						<p class="parrafo1">
+							La versión actualiada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.
+						</p>
+						<p class="parrafo1">
+							Con sólo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupes: tu conductor sabe exactemente a donde ir.
+						</p>
+					</div>
+				</div>
+			</div>
+			<h2 class="title7 center hide-on-med-and-up">LLega a tu destino aún más rápido</h2>
+		</div>
+	</div>
+</section>
+<!-- CONDUCE CUANDO QUIERAS -->
+<section>
+	<div class="row" id="rowDrive">
+		<div class="col s12 m12 l12 xl12" id="driveCols">
+			<div class="secTransparent right">
+				<h2 class="title4">Conduce cuando quieras</h2>
+				<p class="parrafo3">LabCar es una opción flexible para alcanzar tus metas financieras</p>
+				<a class="waves-effect amber  white-text btn btnDrive">conviértete en el conductor</a>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- MAPA -->
+<section>
+	<div class="row" id="rowMap">
+		<div class="col s12 m12 l6 xl6 divLeftMap">
+			<div class="squareMap">
+				<h2 class="title5">Tarifas</h2>
+				<label for="label" class="labelMap">Consultas las tarifas LabCar aquí</label>
+				<p>
+					 <i class="material-icons">radio_button_checked</i>
+					 <input type="text" id="txt-part" placeholder="Ingrese su punto de partida">
+				 </p>
+				 <p>
+					 <i class="material-icons">send</i>
+					 <input type="text" id="txt-dest" placeholder="Ingrese su destino">
+				 </p>
+				 <a class="waves-effect white black-text btn btnLarge">¡trazar ruta!</a>
+			 </div>
+		</div>
+		<div class="col s12 m12 l6 xl6">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59355476.65349612!2d-91.62024307527241!3d-15.846508271151436!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d201f60a8f816b%3A0xca7e9b8e9149aac2!2sGoogle!5e0!3m2!1ses-419!2scl!4v1512498442481" allowfullscreen class="responsive-img"></iframe>
+		</div>
+	</div>
+</section>
+<!-- FOOTER -->
+   <footer class="page-footer" id="footer">
+          <div class="contFooter">
+            <div class="row">
+              <div class="col l12 s12">
+                <img src="assets/images/logoBlanco.png" alt="logoBlanco">
+            	<hr>
+	            	<div class="col s4 l4 offset-l2">
+	                <ul>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Viaja</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Conduce</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Ciudades</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Ciudades</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Entregas</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Cómo funciona?</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Países</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Seguridad</a></li>
+	                </ul>
+	              </div>
+
+	              <div class="col l4 s4 m4 l4 xl4 hide-on-small-only hide-on-med-only">
+	                <ul>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Oportunidades</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Nuestra Historia</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">API de LabCar</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Eventos</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Desarrolladores</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Servicios</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Laboratoria</a></li>
+	                  <li><a class="grey-text text-lighten-3" href="#!">Coders</a></li>
+	                </ul>
+	              </div>
+
+	              <div class="col s6 m4 l2 xl2 logoExt"> 
+	              	<div class="row hide-on-large-only">
+		              	<div class="col s12 m12 l12 xl12">
+		              		<i class="fa fa-facebook" aria-hidden="true"></i>
+		              		<i class="fa fa-twitter" aria-hidden="true"></i>
+		              		<i class="fa fa-linkedin" aria-hidden="true"></i>
+		              		<i class="fa fa-apple" aria-hidden="true"></i>
+		              		<i class="fa fa-play" aria-hidden="true"></i>
+		              	</div>
+	              	</div>
+	              		<img src="assets/images/appstore.png" alt="appstore" class="logos ">
+	              		<img src="assets/images/enBadgeWebGeneric.png" alt="enBadgeWebGeneric" class="logos">
+	              </div>
+	              	<div class="col s4 m6 l6 xl6 hide-on-small-only hide-on-med-only"  id="iconFooter">
+	              		<i class="fa fa-facebook" aria-hidden="true"></i>
+	              		<i class="fa fa-twitter" aria-hidden="true"></i>
+	              		<i class="fa fa-linkedin" aria-hidden="true"></i>
+	              		<i class="fa fa-apple" aria-hidden="true"></i>
+	              		<i class="fa fa-play" aria-hidden="true"></i>
+	              	</div>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="footer-copyright">
+            <div class="lblFooter">
+            © 2017 LAbCar technologies Inc
+            </div>
+          </div>
+        </footer>
+
+<!-- MODAL INICIAR SESION -->
+  <div id="modal1" class="modal center">
+  	<div class="modal-header">
+  		<i class="large material-icons">account_circle</i>
+  	</div>
+  	<hr>
+    <div class="modal-content">
+     <form action="" >
+     	<input type="text" placeholder="Username">
+     	<input type="password" placeholder="Password">
+     	<a class="waves-effect amber white-text btn">loging</a>
+     	<label for="pass">Forgot password?<a href="#">Click here</a></label>
+     </form>
+    </div>
+  </div>
+
+<!-- MODAL REGISTRARSE -->
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+    	<form action="">
+	        <a class="waves-effect black white-text btn btnCuenta">Ya tienes una cuenta?</a>
+	        <label for="create" class="center">O crea una cuenta nueva</label>
+	      	<input type="text" id="name" placeholder="Nombre" class="medio">
+	      	<input type="text" id="LastName" placeholder="Apellido" class="medio">
+	      	<input type="email" id="email" placeholder="Correo Electronico: ejemplo@correo.mx">
+	      	<input type="tel" id="tel" placeholder="Teléfono">
+	      	<input type="password" id="password" placeholder="Contraseña">
+	      	<input type="text" id="city" placeholder="Ciudad">
+	      	<input type="text" id="code" placeholder="(Opcional)Código de invitación">
+			<a class="waves-effect grey  black-text btn btnHow">Cómo te enteraste de nosotros?<i class="large material-icons">expand_more</i></a>
+			<a class="waves-effect cyan white-text btn btnSend">Enviar</a>
+      </form>
+    </div>
+  </div>
+
+<!-- MODAL CONDUCTOR -->
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <form action="">
+      	<label for="">¿Tienes vehículo de 4 puerta?</label>
+      	<input type="text" value="Si">
+      	<label for="">Marca</label>
+      	<input type="text" value="Elige marca del vehículo">
+      	<label for="">No ves tu vehículo en la lista? Envía un email a <a href="#">sociosmdv@uber.com</a></label>
+      	<label for="">Modelo</label>
+      	<input type="text" value="modelo 1">
+      	<label for="">Año</label>
+      	<input type="text" value="2017">
+      	<label for="">Número de la matrícula</label>
+      	<input type="text">
+      	<label for="">La información de la matrícula ayuda a los clientes a identificar tu vehículo</label>
+      	<a class="waves-effect cyan white-text btn btnEnviar">Enviar</a>
+      </form>
+    </div>
+  </div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+
+<script src="https://use.fontawesome.com/2def4b1617.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+	 <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          
+</body>
+</html>

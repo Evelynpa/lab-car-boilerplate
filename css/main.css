@@ -1,1 +1,328 @@
 /* Los estilos de tu proyecto */
+/*MENU*/
+#nav{
+	background-color: #fff;
+}
+
+#nav li a{
+color: #454545;
+}
+#iconLogo{
+	padding: 1.5% 0 0 5%;
+	width: 6em;
+}
+.hamburguer{
+	color: #000;
+}
+#fondoImg{
+	background-image: url(../assets/images/taxi.jpg);
+	background-size: cover;
+	background-position: 50% 95%;
+	padding: 0;
+	margin: 0;
+}
+
+/*IMAGEN FONDO*/
+.yellowSquare{
+	background-color: #F7B617;
+	display: inline-block;
+	margin: 10% 0 10% 0;
+	padding: 3%;
+}
+#divRow{
+	margin: 0;
+}
+.title{
+	margin:0;
+	padding: 0;
+	font-size: 2.7em;
+	font-weight: 600;
+	color: #fff;
+}
+.title2{
+	margin:0;
+	padding: 0 0 5% 0;
+	font-size: 2.7em;
+	font-weight: 600;
+	color: #fff;
+}
+.logoBlanco{
+	width: 20%;
+}
+.label{
+	font-size: 1.5em;
+}
+.btn-registrarse{
+	display: block;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 40%;
+}
+#lbl-square{
+	width: 35%;
+	border-top:transparent;
+	border-bottom:1px solid #fff;
+	display: inline-block;
+}
+#lbl-square2{
+	width: 35%;
+	border-top:transparent;
+	border-bottom:1px solid #fff;
+	display: inline-block;
+}
+label{
+	color: #fff;
+}
+.medio{
+	font-size: 1em;
+	vertical-align: .5em;
+	padding: 2em;
+}
+.btnLarge{
+	margin-top: 7%;
+	margin-bottom: 5%;
+}
+
+/*DESCARGA NUEVA APP***************/
+.appSection{
+	background-color: #F7B617;
+}
+.squareCel{
+	border: 1px solid #fff;
+	margin: 5% 0 5% 0;
+
+}
+.title3{
+	margin:0;
+	padding: 0;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+	margin-top: 15%;
+}
+.title7{
+	margin:0;
+	padding: 0;
+	font-size: 1.5em;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 5%;
+	text-align: left;
+}
+#parrafos{
+	box-sizing: border-box;
+}
+.parrafo1{
+	color: #fff;
+	font-size: 1.5em
+}
+#sectionRow{
+	padding: 0;
+	margin: 0;
+}
+.imgCel{
+	padding: 15% 10% 10% 15%;
+}
+#rowApp{
+	margin: 0;
+}
+#rowDrive{
+	margin: 0;
+}
+/*CONDUCE CUANDO QUIERAS*/
+#driveCols{
+	padding: 0;
+	margin: 0;
+	background-image: url(../assets/images/conduce.jpg);
+	background-size: cover;
+	background-position: 50% 90%;
+}
+.secTransparent{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding:10% 3% 20% 3%;
+
+}
+.title4{
+	margin:0;
+	padding: 0;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+	
+}
+.parrafo3{
+	color: #fff;
+	font-size: 1.4em;
+}
+/*MAPA*****************/
+#rowMap{
+	padding: 0;
+	margin: 0;
+	background-color: #F7B617;
+}
+.squareMap{
+	width: 70%;
+	display: inline-block;
+	margin-right: 10%;
+	margin-left: 20%;
+	margin-top: 10%;
+}
+.divLeftMap{
+}
+#txt-part{
+	width: 70%;
+	margin-left: 2%;
+	margin-top: 5%;
+}
+#txt-dest{
+	width: 70%;
+	margin-left: 2%;
+}
+i{
+	color: #fff;
+}
+.title5{
+	margin:0;
+	padding: 0;
+	font-size: 2em;
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 4%;
+}
+::placeholder { 
+	color: #fff; 
+}
+.labelMap{
+	font-size: 1.1em;
+	margin-bottom: 5%;
+}
+iframe{
+	padding: 3%;
+	margin: 5%;
+	border: 1px solid #fff;
+	width: 90%;
+	height: 40.5em;
+}
+.btnLarge{
+	margin-left: 20%;
+}
+
+/*FOOTER*************************/
+#footer{
+	background-color: #2B2B2B;
+}
+.contFooter{
+	margin: 5% 7%;
+	margin-bottom: 0;
+}
+.logos{
+	width: 10em;	
+}
+.logoExt{
+   margin-top: 25%;
+}
+.fa{
+	color: #fff;
+	margin-right: 0.8em
+}
+#iconFooter{
+	margin: 0;
+}
+
+.lblFooter{
+	margin-left: 7%;
+	margin-bottom: 5%;
+}
+#footer li{
+	line-height: 3em;
+}
+/*MODAL INICIO SESION*/
+#modal1{
+	background-color: #08AC9D;
+	width: 40%;
+}
+#modal1 form{
+	background-color: #F5F5F5;
+	width: 70%;
+	padding: 3%;
+	margin-left: 15%;
+}
+#modal1 form label{
+	display: block;
+	color: #000;
+	padding: 4%;
+}
+#modal1 form input::placeholder{
+ color: #8A8A8A;
+}
+#modal1 form a{
+	margin: 5%;
+}
+/*MODAL REGISTRARSE*/
+#modal2{
+	background-color: #757575;
+	width: 40%;
+	overflow: hidden;
+}
+#modal2 form{
+	width: 90%;
+	padding: 0% 3% 3% 3%;
+	margin-left: 5%;
+	text-align: center;
+}
+.btnCuenta{
+	display: block;
+	margin-bottom: 2%;
+	padding: 0;
+}
+#modal2 form label{
+	font-size: 1em;
+	color: #000;
+	display: block;
+}
+.btnHow{
+	margin-bottom: 2%;
+	display: block;
+}
+#modal2 form i{
+	color: #000;
+}
+#modal2 form input{
+	height: 2em;
+	background-color: #eee
+}
+#modal2 form input::placeholder{
+ color: #8A8A8A;
+}
+#name{
+	width: 49%;
+	display: inline-block;
+}
+#LastName{
+	width: 49%;
+	display: inline-block;
+}
+/*MODAL CONDUCIR*/
+#modal3{
+	background-color: #757575;
+	width: 40%;
+	overflow: hidden;
+}
+#modal3 form{
+	width: 90%;
+	padding: 0% 3% 3% 3%;
+	margin-left: 5%;
+}
+#modal3 form input{
+	box-sizing: border-box;
+	height: 2em;
+	margin-bottom: 1em;
+	background-color: #eee
+}
+#modal3 form label{
+	font-size: 0.9em;
+	display: block;
+}
+.btnEnviar{
+	display: block;
+}
