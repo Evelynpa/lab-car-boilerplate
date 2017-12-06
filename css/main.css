@@ -98,7 +98,8 @@ label{
 	font-size: 2em;
 	font-weight: 600;
 	color: #fff;
-	margin-top: 15%;
+	margin: 5%;
+	text-align: center;
 }
 .title7{
 	margin:0;
@@ -107,6 +108,7 @@ label{
 	font-weight: 600;
 	color: #fff;
 	margin-bottom: 5%;
+	margin-left: 5%;
 	text-align: left;
 }
 #parrafos{
@@ -122,6 +124,10 @@ label{
 }
 .imgCel{
 	padding: 15% 10% 10% 15%;
+}
+.secondSquare{
+	border: 1px solid #fff;
+	margin: 5% 5%;
 }
 #rowApp{
 	margin: 0;
