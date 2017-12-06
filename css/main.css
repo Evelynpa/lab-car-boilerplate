@@ -237,34 +237,34 @@ iframe{
 	line-height: 3em;
 }
 /*MODAL INICIO SESION*/
-#modal1{
+#sesion{
 	background-color: #08AC9D;
 	width: 40%;
 }
-#modal1 form{
+#sesion form{
 	background-color: #F5F5F5;
 	width: 70%;
 	padding: 3%;
 	margin-left: 15%;
 }
-#modal1 form label{
+#sesion form label{
 	display: block;
 	color: #000;
 	padding: 4%;
 }
-#modal1 form input::placeholder{
+#sesion form input::placeholder{
  color: #8A8A8A;
 }
-#modal1 form a{
+#sesion form a{
 	margin: 5%;
 }
 /*MODAL REGISTRARSE*/
-#modal2{
+#register{
 	background-color: #757575;
 	width: 40%;
 	overflow: hidden;
 }
-#modal2 form{
+#register form{
 	width: 90%;
 	padding: 0% 3% 3% 3%;
 	margin-left: 5%;
@@ -275,7 +275,7 @@ iframe{
 	margin-bottom: 2%;
 	padding: 0;
 }
-#modal2 form label{
+#register form label{
 	font-size: 1em;
 	color: #000;
 	display: block;
@@ -284,14 +284,14 @@ iframe{
 	margin-bottom: 2%;
 	display: block;
 }
-#modal2 form i{
+#register form i{
 	color: #000;
 }
-#modal2 form input{
+#register form input{
 	height: 2em;
 	background-color: #eee
 }
-#modal2 form input::placeholder{
+#register form input::placeholder{
  color: #8A8A8A;
 }
 #name{
@@ -303,23 +303,23 @@ iframe{
 	display: inline-block;
 }
 /*MODAL CONDUCIR*/
-#modal3{
+#regDrive{
 	background-color: #757575;
 	width: 40%;
 	overflow: hidden;
 }
-#modal3 form{
+#regDrive form{
 	width: 90%;
 	padding: 0% 3% 3% 3%;
 	margin-left: 5%;
 }
-#modal3 form input{
+#regDrive form input{
 	box-sizing: border-box;
 	height: 2em;
 	margin-bottom: 1em;
 	background-color: #eee
 }
-#modal3 form label{
+#regDrive form label{
 	font-size: 0.9em;
 	display: block;
 }
