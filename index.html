@@ -222,7 +222,12 @@
 	      	<input type="password" id="password" placeholder="Contraseña">
 	      	<input type="text" id="city" placeholder="Ciudad">
 	      	<input type="text" id="code" placeholder="(Opcional)Código de invitación">
-			<a class="waves-effect grey  black-text btn btnHow">Cómo te enteraste de nosotros?<i class="large material-icons">expand_more</i></a>
+			<select class="browser-default">
+		    <option value="" disabled selected>Cómo te enteraste de nosotros?</option>
+		    <option value="1">Facebook</option>
+		    <option value="2">Publicidad</option>
+		    <option value="3">Navegando por internet</option>
+		</select>
 			<a class="waves-effect cyan white-text btn btnSend">Enviar</a>
       </form>
     </div>
@@ -233,16 +238,37 @@
     <div class="modal-content">
       <form action="">
       	<label for="">¿Tienes vehículo de 4 puerta?</label>
-      	<input type="text" value="Si">
+        <select class="browser-default">
+		    <option value="" disabled selected>Elija una opción</option>
+		    <option value="1">Si</option>
+		    <option value="2">No</option>
+		 </select>
       	<label for="">Marca</label>
-      	<input type="text" value="Elige marca del vehículo">
+      	<select class="browser-default">
+		    <option value="" disabled selected>Elige marca del vehículo</option>
+		    <option value="1">Chevrolet</option>
+		    <option value="2">Peugeot</option>
+		    <option value="3">Nissan</option>
+		 </select>
       	<label for="">No ves tu vehículo en la lista? Envía un email a <a href="#">sociosmdv@uber.com</a></label>
       	<label for="">Modelo</label>
-      	<input type="text" value="modelo 1">
+      	<select class="browser-default">
+		    <option value="" disabled selected>Elija una opción</option>
+		    <option value="1">Modelo 55hr8trr</option>
+		    <option value="2">Modelo 46df5d880</option>
+		    <option value="3">Modelo 5r8ryetgs</option>
+		 </select>
       	<label for="">Año</label>
-      	<input type="text" value="2017">
+      	<select class="browser-default">
+		    <option value="" disabled selected>Elija una opción</option>
+		    <option value="1">2013</option>
+		    <option value="2">2014</option>
+		    <option value="3">2015</option>
+		    <option value="5">2016</option>
+		    <option value="6">2017</option>
+		 </select>
       	<label for="">Número de la matrícula</label>
-      	<input type="text">
+      	<input type="text" placeholder="Número de matricula">
       	<label for="">La información de la matrícula ayuda a los clientes a identificar tu vehículo</label>
       	<a class="waves-effect cyan white-text btn btnEnviar">Enviar</a>
       </form>

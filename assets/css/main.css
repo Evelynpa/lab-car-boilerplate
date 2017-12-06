@@ -319,7 +319,7 @@ iframe{
 	padding: 0% 3% 3% 3%;
 	margin-left: 5%;
 }
-#regDrive form input{
+#regDrive form input,select{
 	box-sizing: border-box;
 	height: 2em;
 	margin-bottom: 1em;
@@ -331,4 +331,7 @@ iframe{
 }
 .btnEnviar{
 	display: block;
+}
+#regDrive form input::placeholder{
+ color: #8A8A8A;
 }
