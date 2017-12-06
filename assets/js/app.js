@@ -2,16 +2,16 @@
   $(document).ready(function(){
 
    $('#inicio').click(function(){
-		$('#sesion').modal();//ABRE MODAL LOGEARSE
+    $('#sesion').modal();//ABRE MODAL LOGEARSE
 
    });
    
     $('#registr').click(function(){
-		$('#register').modal();//ABRE MODAL REGISTRAR USUARIO
+    $('#register').modal();//ABRE MODAL REGISTRAR USUARIO
 
    });
     $('#drive').click(function(){
-		$('#regDrive').modal();//ABRE MODAL REGISTRAR CONDUCTOR
+    $('#regDrive').modal();//ABRE MODAL REGISTRAR CONDUCTOR
 
    });
   });
